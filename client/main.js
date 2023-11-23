@@ -1,8 +1,3 @@
+const a = 'hello';
 
-
-const a = "hello";
-
-
-
-
-console.log(navigator.language)
+console.log(navigator.language);
