@@ -151,10 +151,10 @@ for (let [key, value] of Object.entries(randomUser)) {
   console.log(value); // 이렇게 하면 구조분해 할당이 됨.
 }
 
-//for in 과 for of 의 차이: for in은 객체에 사용, for of 는 배열에 사용. 
+//for in 과 for of 의 차이: for in은 객체에 사용, for of 는 배열에 사용.
 //for of는 배열에만 쓸 수 있지만, Object keys,values,entries 를 사용하여 객체를 배열로 만든 후 사용하면 됨
-//for in 도 배열에 슬 수 있지만, for of와 다르게 순서가 지켜지지 않고, 사용자가 임의적으로 지정한 prototype까지 불러오는 성능 문제로 추천하지 않음
-
+//for in 도 배열에 슬 수 있지만, for of와 다르게 순서가 지켜지지 않고,
+//사용자가 임의적으로 지정한 prototype까지 불러오는 성능 문제로 추천하지 않음
 
 //앞의 hasOwnProperty와 다르게 prototype의 call을 가져오지 않아도 쓸 수 있는 메소드를 스테틱 메서드라 함
 //인스턴스 메서드는 객체로부터 생성된 자식
