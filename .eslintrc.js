@@ -5,6 +5,9 @@ module.exports = {
     node: true,
   },
   extends: 'eslint:recommended',
+  glovals: {
+    getNode: true,
+  },
   overrides: [
     {
       env: {

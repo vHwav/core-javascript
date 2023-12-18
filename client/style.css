@@ -6,28 +6,19 @@ body {
     overflow: hidden;
 }
 
-span {display: inline-block;}
-
-.menu-button{
-    position: fixed;
-    right: 1rem;
-    top: 1rem;
-    z-index: 10;
-    font-size: 2.5rem;
-    text-decoration: none;
+section{
+  background-color: orange;
+  padding: 2rem;
 }
 
-.menu {
-    width: 50vw;
-    height: 100vh;
-    background: orange;
-    position: absolute;
-    right: -50vw;
-    top: 0;
-    transition: all .5s;
 
+article{
+  background-color: dodgerblue;
+  padding: 2rem;
 }
 
-.menu.is-active{
-    transform: translateX(-100%);
+
+p{
+  background-color: hotpink;
+  padding: 2rem;
 }
