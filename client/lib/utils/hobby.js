@@ -1,4 +1,4 @@
-const END_POINT = 'http://localhost:3000/users';
+const END_POINT = 'https://jsonplaceholder.typicode.com/users';
 const defaultOptions = {
   method: 'GET',
   body: null,
